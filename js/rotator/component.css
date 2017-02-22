@@ -1,0 +1,108 @@
+.cbp-qtrotator {
+	position: relative;
+	margin: 2em auto 1em auto;
+	max-width: 800px;
+	width: 100%;
+	min-height: 300px;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	border-top: 1px solid #f4f4f4;
+/*
+	border-bottom: 1px solid #f4f4f4;
+*/
+	padding-top : 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+  text-align:center;
+	-webkit-backface-visibility: hidden;
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: #11dfc7;
+	height: 1px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-qtrotator blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-qtrotator blockquote em {
+	color: #999;
+	font-weight: 300;
+	margin-top: 0.4em;
+  font-size: 1em;
+}
+
+.cbp-qtrotator blockquote footer {
+	font-size: 0.77em;
+  color: #999;
+  padding-top: 17px;
+  letter-spacing : 0.5px;
+}
+
+.cbp-qtcontent h5 {
+  font-size: 70%;
+  letter-spacing : 0.5px;
+}
+
+
+.cbp-qtrotator blockquote footer:before {
+	content: '';
+}
+
+/*
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin-left: 3em;
+}
+*/
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 90%;
+    min-height:375px
+	}
+  
+
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
+
+}

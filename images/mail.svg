@@ -1,0 +1,13 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="84px" height="84px" viewBox="0 0 84 84" enable-background="new 0 0 84 84" xml:space="preserve">
+<circle fill="none" stroke="#00D1B1" stroke-width="3" stroke-miterlimit="10" cx="41" cy="42" r="39"/>
+<path fill="none" stroke="#00D1B1" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" d="M59.5,47.772
+	c0,1.507-0.916,2.728-2.047,2.728H24.547c-1.13,0-2.047-1.221-2.047-2.728V29.228c0-1.506,0.917-2.728,2.047-2.728h32.906
+	c1.131,0,2.047,1.221,2.047,2.728V47.772z"/>
+<polyline fill="none" stroke="#00D1B1" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" points="25.361,27.076 
+	41.909,39.334 59.987,27.627 "/>
+<line fill="none" stroke="#00D1B1" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" x1="59.048" y1="49.969" x2="46.901" y2="36.101"/>
+<line fill="none" stroke="#00D1B1" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" x1="23.691" y1="50.243" x2="37.545" y2="36.101"/>
+<text transform="matrix(1.1226 0 0 1 29.3677 68.0996)" fill="#00D1B1" font-family="'ArialMT'" font-size="12">Mail</text>
+</svg>
